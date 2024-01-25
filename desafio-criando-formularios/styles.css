@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+body::before {
+  content: "";
+  display: block;
+  height: 436px;
+  width: 100%;
+  background: #535971;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.container {
+  width: 750px;
+  margin: 0 auto;
+}
+
+
+/* HEADER SECTION*/
+header {
+  margin-top: 140px;
+  color: #FFF;
+}
+
+header h1 {
+  font-family: 'Staatliches', sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+
+}
+header p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 18px;
+
+}
+
+/*FORM*/
+
+form {
+
+  min-height: 300px;
+  margin-top: 58px;
+
+  border-radius: 20px 20px 0px 0px;
+  background: #FFF;
+
+  padding: 64px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  
+  
+}
+
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+} 
+
+.fieldset-wrapper legend {
+  color: #535971;
+  text-transform: uppercase;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 24px;
+
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 16px;
+
+  margin-bottom: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+
+}
+.fieldset-wrapper .names-wrapper {
+  display: flex;
+  gap: 22px;
+}
+
+.fieldset-wrapper .names-wrapper >div {
+  flex:1;
+}
+
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  gap: 8px;
+}
+
+
+.input-wrapper label {
+  color: #4E4958;
+
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+
+
+.input-wrapper label span {
+  color: #C1BCCC;
+
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+
+  margin-left: 8px;
+}
+
+
+.input-wrapper input {
+  border-radius: 8px;
+  border: 1px solid  #E6E6F0;
+  background:  #FAFAFC;
+  padding: 0 20px;
+  height: 56px;
+
+  color: #868688;
+  font-size: 16px;
+}
+
+
+.fieldset-wrapper h2 {
+  color: #535971;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; 
+}
+
+
+.mentoring-date > div{
+  display: flex;
+  gap: 32px;
+
+}
+
+.mentoring-date .input-wrapper:first-child {
+  width: 100%;
+} 
+
+.mentoring-date + .mentoring-date {
+  margin-top: 16px;
+}
+
+
+
+/*Footer*/
+
+
+footer {
+  background: #535971;
+  height: 160px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 20px 20px;
+  padding: 0 70px;
+
+  margin-bottom: 366px;
+}
+
+footer button {
+  width: 100%;
+  border-radius: 20px;
+  background: #FF5374;
+
+  border: none;
+
+  height: 56px;
+
+  cursor: pointer;
+
+
+  color: #FFF;
+  font-family: 'Staatliches', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+
+
+}
+
+footer button:hover {
+  background: #a81230;
+}
